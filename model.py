@@ -8,7 +8,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load the data
-df = pd.read_csv('Vidula 1.csv')
+df = pd.read_csv('data.csv')
 
 # Preprocess the data
 le = LabelEncoder()
